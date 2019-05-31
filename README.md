@@ -1,3 +1,4 @@
 # Student_Management_System_Python-tkinter-sqlite
 
-![image](student_info.PNG)
+![image](Student_info.png)
+![image](display_result.png)
