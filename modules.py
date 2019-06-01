@@ -86,8 +86,6 @@ def search(name):
 
     i=0
     cursor = connection.execute("  SELECT * FROM " + TABLE_NAME + " WHERE " + STUDENT_NAME + " = ? ;", (name,))
-    # for row in cursor:
-    #      print(row)
 
     for row in cursor:
         tree1.insert('', i, text="Student "+ str(row[0]),
@@ -101,8 +99,7 @@ def search(name):
 
 
 
-    # works with both with and without semicolon  ???????
-    # see in update and delete query
+   
 
 
 
